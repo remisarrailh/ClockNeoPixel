@@ -77,7 +77,7 @@ void blink(bool state)
         pixels_right.setPixelColor(0, pixels_right.Color(0, 0, 0));
         pixels_right.setPixelColor(1, pixels_right.Color(0, 0, 0));
     }
-    pixels_right.show();
+
 }
 
 void light_digit(int pos, int number)
