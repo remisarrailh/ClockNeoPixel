@@ -78,9 +78,9 @@ void clock_mode()
   {
     if (last_second != time_second())
     {
-      clear();
       if (last_minute != time_minute())
       {
+        clear();
         Serial.println(temperatureRead());
         led_time(time_hour(), time_minute());
         last_minute = time_minute();
